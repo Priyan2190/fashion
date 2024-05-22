@@ -1,0 +1,98 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+
+}
+
+#main {
+    width: 100%;
+    height: 100%;
+    background-color: #dadada;
+    display: grid;
+    grid-template-columns: 25% 25% 50% ;
+
+}
+
+#leftest {
+    background-color: #dadada;
+    padding: 20px;
+    padding-left: 20px;
+
+}
+#square{
+    height: 15px;
+    width: 15px;
+    background-color: black;
+    rotate: 45deg;
+    border-radius: 4px;
+    
+}
+#square:hover{
+    rotate: 0deg;
+    border-radius: 0;
+}
+
+#left-r {
+    background-color: #dadada;
+  
+    justify-self: right;
+    align-self: center;
+    padding:10px;
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif ;
+    
+}
+#left-r h3{
+    margin-bottom: 2vw;
+    font-size: 25px;
+    font-weight: 800;
+  
+}
+#left-r h4{
+    font-size: 20px;
+    font-weight: 500;
+    color: #333;
+    font-style: italic;
+    
+   
+}
+
+
+#left_cent {
+    background-color: #dadada;
+    grid-column: 1/3;
+    font-size: 45px;
+    line-height: 6vw;
+    padding: 20px;
+    
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#left_cent h1:nth-child(2n){
+    text-align: center;
+    font-style: italic;
+}
+
+#left_bot {
+    background-color: #dadada;
+    grid-column: 1/3;
+    padding: 40px;
+    
+
+}
+#left_bot p{
+     width: 70%;
+     text-align: left;
+}
+
+#right{
+    background-color: yellowgreen;
+    grid-column: 3;
+    grid-row: 1/4;
+}
